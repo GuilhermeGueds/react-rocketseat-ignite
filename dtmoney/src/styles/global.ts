@@ -32,9 +32,16 @@ html {
     @media (max-width: 720){      //   16*0.875 = 14px
         font-size: 87,5%;
     }
+}       // REM = 1rem = font-size = 16px
+
+body, input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
- // REM = 1rem = font-size = 16px
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600;
+}
 
 body{
 background: var(--background);
