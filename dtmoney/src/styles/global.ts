@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     --blue-light: #6933FF;
 
     --text-title: #363F5F;
-    --texty-body: #969CB3;
+    --text-body: #969CB3;
 
     --background: #F0F2F5;
     --shape: #FFFFFF;
@@ -42,7 +42,8 @@ body, input, textarea, button {
 }
 
 h1, h2, h3, h4, h5, h6, strong, div {
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 body{
