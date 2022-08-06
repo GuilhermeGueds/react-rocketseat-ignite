@@ -1,10 +1,10 @@
-import {createGlobalStyle} from "styled-components";
-
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 :root {
     --background: #f0f2f5;
     --red: #E52E4D;
+    --green: #33cc95;
     --blue: #5429CC;
 
     --blue-light: #6933FF;
@@ -14,6 +14,8 @@ export const GlobalStyles = createGlobalStyle`
 
     --background: #F0F2F5;
     --shape: #FFFFFF;
+
+   
 }
 
 
@@ -39,7 +41,7 @@ body, input, textarea, button {
     font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h3, h4, h5, h6, strong, div {
     font-weight: 600;
 }
 
@@ -56,4 +58,4 @@ button {
     opacity: 0.6;
     cursor: not-allowed
 }
-`
+`;
