@@ -1,10 +1,9 @@
 import { Container } from "./style";
 import { incomeImg, outcomeImg, totalImg } from "../../assets/";
-import { useContext } from "react";
-import { TransactionsContext } from "../../TransactionsContext";
+import { useTransactions } from "../../hooks/UseTransactionsContext";
 
 export function Summary() {
-  const { transactions } = useContext(TransactionsContext);
+  const { transactions } = useTransactions();
 
   const summary = transactions.reduce(
     (acc, transaction) => {
